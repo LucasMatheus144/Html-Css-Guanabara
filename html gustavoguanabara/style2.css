@@ -1,0 +1,28 @@
+@charset "UTD-8";
+
+*{
+    font-family: cursive;
+}
+body{
+    background-image: linear-gradient(to right, #B28B00, #FFCD19, #FFC700, #0011B2, #0019FF);
+}
+ main{
+     background-color:white;
+     width:600px ;
+     padding: 10px;
+     margin: auto; 
+     box-shadow: 10px 10px 10px black;    
+ }
+h1{
+     color: seagreen;
+     box-shadow: 5px 5px 3px rgb(161, 231, 161);
+     text-shadow: 5px 5px 3px rgb(161, 231, 161);
+ }
+
+h2{
+    color: violet;
+}
+p{
+    text-align: justify;
+}
+

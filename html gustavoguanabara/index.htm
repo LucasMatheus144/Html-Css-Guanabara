@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 VEZ</title>
+   <link rel="shortcut icon" href="imagens/fovicon.test.ico" type="image/x-icon">
+   <link rel="stylesheet" href="style.css">
+         
+    </head>
+    <body> 
+    <div class="sub-image">
+    <h1 >Salve rapaziada, Estou coloquando em pratica tudo oque eu aprendi</h1>
+    <p>Hoje eu entendi como quebrar a linha , tambem aprendi a colocar imagem no site e colocar uma logo. ai vem a primeira imagem</p>
+    <img src="imagens/images.png" alt="Teste">
+    <h2>Agora irei colocar a segunda imagen</h2>
+     <p> <mark>porem tbm apredi <i> a criar subtitulos e afins! </i> Essa foto eu fiquei em duvida em colocar pois ela eh proibida com direito autorais <br> <u> <strong> todavia nao irei oficializar o site </mark>, apenas estou testando o conhecimento que estou adquirindo nas aulas</u> </strong> </p>
+   <img src="imagens/imagens.teste.jpg" alt="Teste">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, modi distinctio culpa delectus, tempore animi <mark> recusandae itaque illum perferendis accusantium numquam, nostrum aspernatur labore porro! In incidunt nostrum suscipit praesentium.</mark> </p> <!--nao sei oque esse texto esta escrito, so encrevi lorem-->
+    <h3>Nesse paragrafo 3, <u> <strong> eu irei destacar uma frase </strong>, <i>tambem irei negritra a frase mas sem semantica</i> <em>e irei negritar a frase mas com semantica, </em> </u> </h3>
+        <h4> Usando outra linguagem
+            <pre>
+                <code>
+                     a = input('Digite seu nome')
+                     print('É um prazer em te conhecer {}'.format(a))
+                </code>
+            </pre>
+        </h4>
+         <h5>Vamos aprender listas ordenadas </h5>
+         <ol type="I"> <!--I,A,a,i,1-->
+             <li>Acordar</li> 
+             <li>Escovar os dentes</li>
+             <li>Ligar o computador</li>
+             <li>Fazer o resto</li>
+         </ol>
+         <h6>Vamos aprender listas nao ordenadas</h6>
+         <ul> <!--OS tipos dis,circule,square-->
+             <li>comer pao</li>
+             <li>comer bolo</li>
+             <li>comer bolacha</li>
+             <li>comer biscoito</li>
+             <li>nao comer nada</li>
+         </ul>
+         <h6>Agora irei juntar as listas</h6>
+         <ol type="I">
+      <li>DE manha; 
+          <ul type=  'circule'>           
+             <li>comer
+             <li>escovar os dentes 
+             <li>ir ao computador 
+             <li>assistir as aulas 
+         </ol>
+          <ol type="I" start="2">
+       <li>DE tARDE ;
+           <ul type='circule'> 
+              <li>Jogar com os amigo
+              <li>Ver algumas video aulas 
+              <li>E jogar 
+              </ul>     
+        <h6>Vamos aprender  as listas de definiçoes</h6>
+        <dl>
+            <dt> <abbr title="a descriçao da tag">html</abbr></dt>
+             <dd>Linguagem de marcaçao para a criaçao de sites</dd>
+            <dt><abbr title="descriçao da tag"> Css </abbr> </dt>
+             <dd>Linguagem de marcaçao para a criaçao de sites</dd>
+            <dt> <abbr title="Descriçao da tag">Java Script </abbr></dt>
+             <dd>Lingaugem de programaçao para a criaçao da interface de um site</dd>
+        </dl>
+        <h6>Agora vou aprender a colocar um link no site</h6>
+        <p>vou adiconar um link do meu facebook
+       <a href="https://facebook.com/" target="_blank" rel="external" >o meu facebook</a>
+       <p> como teste  irei colocar mais 1 link, <a href="https://youtube.com" target="_blank" rel="external">o youtuve</a> 
+        </p>
+        <h6> Segundo site </h6>
+          <p>link para meu segundo site <a href="index2.html" target="_self" rel="next">segundo site</a></p>
+          <h4>Hoje aprende a colocar link de dowload</h4>
+          <p><a href="pdftesteaula.pdf" target="_blank">link de uma pdf aula</a></p>
+      <h1>Adicionando imagens que se adaptam as resoluçoes</h1>
+             <p>lembrnado que abra o site em varios dispositivos, ou aumente ou diminua a resoluçao do seu navegador</p>
+          <picture>
+              <source media="(max-width:750px)"srcset="imagens/foto-p.png" type="image/png">
+              <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+              <img src="imagens/foto-g.png" alt="Imagen Flexivel">
+          </picture> <!--Isso de imagem flexivel eh coomplicado,so praticar que uma hora vai...-->
+          <h2>Hoje aprendi a colocar audio</h2>
+             <p>Musica ligth</p>
+           <!--<audio src="sons/ligth-som.mp3" controls autoplay></audio> (Maneira mais comum de audio em site) -->
+           <audio preload="metadata" autoplay controls loop >
+               <source src="sons/ligth-som.mp3" type="audio/mp3">
+           </audio>    
+           <h1>Aprendendo a colocar video em sites</h1>     
+       <p> <!--existe dessa maneira, a mais facil<video src="video/videomkv.mkv" width="500px" controls></video> -->
+          <video width="500px" poster="download.jpg" controls loop> 
+              <source src="video/videowebm.webm" type="video/webm">
+              <source src="video/videomkv.mkv" type="video/mkv" >
+              <source src="video/videomp4.mp4" type="video/mp4">
+                        <!--So ta faltando o vide/ogg, nao coloquei pq ia demorar muito pra baixar, ele eh para os googles mais expecificos, tipo o do iPHONE e outrosallow="accelerometer; autoplay; clipboard-write; encrypted-media; (minoria)-->
+         </video></p>
+      <h6>inserindo video do youtebe</h6>
+              <iframe width="400px" height="315" src="https://www.youtube.com/embed/0o-A1q1O23I" frameborder="0" gyroscope; picture-in-picture" allowfullscreen></iframe> 
+              <p>agora o segundo video <br> <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+              <h1>Tambem aprendi a colocar um url em uma imagem</h1>
+              <p>link em imagem</p>
+        <a href="index2.htm" target="_self"><img src="imagens/images.png" alt="imagem"></a>
+        </div>
+       
+
+
+        
+</body>
+</html> 

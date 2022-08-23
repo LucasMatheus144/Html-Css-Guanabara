@@ -1,0 +1,16 @@
+@charset "UTF-8";
+body {
+    background-image: linear-gradient(to right, #B28B00, #FFCD19, #FFC700, #0011B2, #0019FF);
+    font-size: 20px;}
+    h1{ color: rgb(252, 201, 252);}
+    h2 { color : rgb(202, 111, 111);}
+    p {color: hotpink
+}
+
+div.sub-image{
+    background-color:whitesmoke;
+     width: 1050px;
+     padding: 10px;
+     margin: auto; 
+     box-shadow: 10px 10px 10px black;   
+}
